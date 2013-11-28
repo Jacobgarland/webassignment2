@@ -1,0 +1,79 @@
+/* 
+    Document   : style
+    Created on : 19-Sep-2013, 3:36:57 PM
+    Author     : jacob
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+
+#navbar ul
+{
+list-style-type:none;
+padding: 5px; 
+list-style-type: none; 
+text-align: center;
+}
+
+#navbar li
+{
+display: inline-block;
+}
+
+#navbar a:link,a:visited
+{
+color:white;
+display:block;
+width:120px;
+padding:3px;
+background-color:grey;
+}
+
+#navbar a:hover,a:active
+{
+background-color:black;
+}
+
+#title h2
+{
+    text-align: center;
+
+}
+#copyright p
+{
+    position: relative;
+    bottom: 0; 
+    width:100%;
+}
+#aboutmecontent, #projects, #copyright, #homecontent, #servicecontent
+{
+position:relative;
+text-align:center;
+}
+#servicecontent ul
+{
+margin: 0 auto;
+text-align: left;
+width: 300px;
+}
+
+#keepconnected
+{
+position: relative;
+text-align: center;
+}
+
+#contactcontent
+{
+    text-align: center;
+}
+
+#homecontent ul
+{
+    list-style-type: none; 
+}
+
+#phplogin
+{
+    text-align: center;
+}
